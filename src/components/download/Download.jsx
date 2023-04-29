@@ -7,7 +7,7 @@ const Download = ({ src }) => {
       <a
         href={src[0]}
         download={true}
-        className="default-btn d-block w-fit-content m-auto download-btn"
+        className="default-btn d-block w-fit-content m-auto download-btn pointer-event"
       >
         <img className="me-2" src={images.download_icon} alt="download" />
         Download

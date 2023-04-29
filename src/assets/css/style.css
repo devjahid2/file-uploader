@@ -66,9 +66,11 @@ a {
 .nav-section ul li a.active {
   border-color: #cdcdcd;
 }
+.default-btn {
+  padding: 8px 25px;
+}
 .default-btn,
 .default-btn:hover {
-  padding: 8px 25px;
   color: #fff;
   background-color: #000;
   border-radius: 4px;
