@@ -1,12 +1,7 @@
 import React from "react";
 import Select from "react-select";
 
-const SelectInput = ({
-  floatingLabels,
-  options,
-  defaultValue,
-  setValue,
-}) => {
+const SelectInput = ({ floatingLabels, options, defaultValue, setValue }) => {
   return (
     <div className="position-relative w-100">
       <label className="select-label">{floatingLabels}</label>
