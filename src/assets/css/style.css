@@ -137,6 +137,10 @@ a {
 .logo-img{
   width: 50px;
 }
+button{
+  outline: none;
+  border: none;
+}
 @media (max-width: 1200px) {
   .content {
     width: 100%;

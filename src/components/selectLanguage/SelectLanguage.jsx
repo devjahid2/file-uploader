@@ -43,7 +43,7 @@ const SelectLanguage = ({src}) => {
       </div>
     </div>
     {
-      src[0] ? <div className="mt-5 content text-center"><button className="default-btn">Translate</button></div> : ''
+      src[0] ? <div className="mt-5 content text-center"><button className="default-btn download-btn">Translate</button></div> : ''
     }
     </>
   );
