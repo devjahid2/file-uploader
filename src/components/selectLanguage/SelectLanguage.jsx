@@ -3,7 +3,7 @@ import SelectInput from "./SelectInput";
 import { images } from "../../assets/images/images";
 import language from "../../assets/data/language";
 
-const SelectLanguage = () => {
+const SelectLanguage = ({src}) => {
   const [translatedFrom, setTranslatedFrom] = useState(language[0]);
   const [switchHelper, setSwitchHelper] = useState(language[0]);
   const [translatedTo, setTranslatedTo] = useState(language[1]);
@@ -18,7 +18,8 @@ const SelectLanguage = () => {
   }, [translatedFrom]);
 
   return (
-    <div className="mt-5 content">
+    <>
+      <div className="mt-5 content">
       <div className="d-flex align-items-center gap-2">
         <SelectInput
           setValue={setTranslatedFrom}
@@ -41,6 +42,10 @@ const SelectLanguage = () => {
         />
       </div>
     </div>
+    {
+      src[0] ? <div className="mt-5 content text-center"><button className="default-btn">Translate</button></div> : ''
+    }
+    </>
   );
 };
 

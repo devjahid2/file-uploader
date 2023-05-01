@@ -29,7 +29,7 @@ const Navbar = () => {
             ) : (
               ""
             )}
-            <h2 className="h4">Company Logo</h2>
+            <img className="logo-img" src={images.logo} alt="logo" />
             <ul
               className={`d-flex ${
                 smallDevice & openLeftMenu ? "active" : ""

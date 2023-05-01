@@ -134,7 +134,9 @@ a {
 .time_1n8zam0{
     color: var(--black-color-) !important;
 } */
-
+.logo-img{
+  width: 50px;
+}
 @media (max-width: 1200px) {
   .content {
     width: 100%;
